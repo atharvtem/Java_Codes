@@ -13,6 +13,7 @@ class myThread extends Thread{
 }
 class ThreadDemo{
 	public static void main(String [] args)throws InterruptedException{
+		myThread.nmMain=Thread.currentThread();
 		myThread obj = new myThread();
 		obj.start();
 		obj.join();
