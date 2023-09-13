@@ -23,6 +23,9 @@ class pqDemo{
 		pq.offer(new Project("ChatGPT", 120,180));
                 pq.offer(new Project("Bard AI", 540,320));
                 pq.offer(new Project("MyAI", 100,90));
+/*		pq.offer(new Project("ChatGPT", 400,2));
+                pq.offer(new Project("Bard AI", 200,3));
+                pq.offer(new Project("MyAI", 700,1));*/
 		System.out.println(pq);
 	}
 }
